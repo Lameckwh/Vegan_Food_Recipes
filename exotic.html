@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
-    
+
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -40,10 +40,10 @@
             <div class="navbar-collapse collapse move-me">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">HOME</a></li>
-                    <li ><a href="local.html">TRADITIONAL</a></li>
+                    <li><a href="local.html">TRADITIONAL</a></li>
                     <li><a class="active-link" href="#">EXOTIC</a></li>
-                    <li><a href="#contact-sec">CONTACT</a></li>
-                    <li><a href="#contact-sec">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li>
                         <form>
                             <input type="text" id="myFilter" onkeyup="myFunction()" placeholder="Search for recipes..">
@@ -57,6 +57,7 @@
         </div>
     </div>
     <!--NAVBAR SECTION END-->
+
     <!-- HOME SECTION START -->
     <div class="home-secl" id="home">
         <div class="overlayl">
@@ -67,8 +68,8 @@
 
                         <div class="flexslider set-flexi" id="main-section">
 
-                            <h3>MALAWI VEGETARIAN FOOD RECIPES - LOCAL</h3>
-                            <p>Dont stress up on how to cook the yummy vegetearian food. Browse through here that
+                            <h3>EXOTIC VEGAN FOOD RECIPES</h3>
+                            <p class="remarks">Dont stress up on how to cook the yummy vegetearian food. Browse through here that
                                 recipes and enjoy the its delicous food </p>
                         </div>
 
@@ -80,501 +81,563 @@
 
     </div>
     <!--HOME SECTION END-->
+    <div class="tag-line">
+        <div class="container">
+            <div class="row  text-center">
+
+                <div class="col-lg-12  col-md-12 col-sm-12">
+
+                    <h2 data-scroll-reveal="enter from the bottom after 0.1s"> </h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 
     <!--LOCAL RECIPES START-->
     <section class="section services-section" id="services">
-         <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('food')"> Food</button>
-  <button class="btn" onclick="filterSelection('relish')"> Relish</button>
-  <button class="btn" onclick="filterSelection('breakfast')"> Breakfast</button>
-  <button class="btn" onclick="filterSelection('salad')"> Salad</button>
-</div>
+        <div id="myBtnContainer" align="center">
+            <button class="btn btn-info active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn btn-info" onclick="filterSelection('food')"> Food</button>
+            <button class="btn btn-info" onclick="filterSelection('relish')"> Relish</button>
+            <button class="btn btn-info" onclick="filterSelection('breakfast')"> Breakfast</button>
+            <button class="btn btn-info" onclick="filterSelection('salad')"> Salad</button>
+        </div>
 
-           <!-- Control buttons -->
+        <!-- Control buttons -->
 
         <div class="container">
-
             <!-- / -->
             <!-- feaure box -->
             <div class="row" id="myItems">
 
-            <div class="filterDiv relish">
-                 <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/eggplant.jpg" class="card-img-top" alt="...">
-                    <div class="feature-content">
-                        <h4 class="card-title">MABIRINGANYA OKAZINGA NDI SUPU</h4>
-                        <h6>(Fried Eggplant with Sauce)</h6>
-                        <p>This tasty layered eggplant dish draws comparisons to eggplant parmesan and is equally
-                            delicious!</p>
+                <div class="filterDiv relish">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/eggplant.jpg" class="card-img-top" alt="...">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">MABIRINGANYA OKAZINGA NDI SUPU</h4>
+                                        <h6>(Fried Eggplant with Sauce)</h6>
+                                        <p>This tasty layered eggplant dish draws comparisons to eggplant parmesan and
+                                            is equally
+                                            delicious!</p>
 
-                        <hr>
-                        <h5>Ingridients</h5>
+                                        <hr>
+                                        <h5>Ingridients</h5>
 
-                        <h6>Eggplant:</h6>
-                        <p>5 small sized eggplants or 2 large eggplants</p>
-                        <p>4-6 tablespoons oil</p>
+                                        <h6>Eggplant:</h6>
+                                        <p>5 small sized eggplants or 2 large eggplants</p>
+                                        <p>4-6 tablespoons oil</p>
 
-                        <h6>Sauce:</h6>
-                        <p>10 large tomatoes or 1 can (28 ounces) diced tomatoess</p>
-                        <p>1 ½ large onions</p>
-                        <p>3 cloves of garlic</p>
-                        <p>2 tablespoons oil</p>
+                                        <h6>Sauce:</h6>
+                                        <p>10 large tomatoes or 1 can (28 ounces) diced tomatoess</p>
+                                        <p>1 ½ large onions</p>
+                                        <p>3 cloves of garlic</p>
+                                        <p>2 tablespoons oil</p>
 
 
-                        <h5>Instructions</h5>
-                        <ol>
-                            <h6>Eggplant:</h6>
-                            <li>Cut eggplants into round ½ inch thick size medallions </li>
-                            <li>In a pan, heat 1-2 tablespoons oil on medium high. When the oil and pan fry until deep
-                                golden brown on each side </li>
-                            <li>Remove from oil, place onto a paper towel covered plate, and set aside. Repeat the
-                                process until all eggplant has been cooked, adding moreoil as needed. </li>
+                                        <h5>Instructions</h5>
+                                        <ol>
+                                            <h6>Eggplant:</h6>
+                                            <li>Cut eggplants into round ½ inch thick size medallions </li>
+                                            <li>In a pan, heat 1-2 tablespoons oil on medium high. When the oil and pan
+                                                fry until deep
+                                                golden brown on each side </li>
+                                            <li>Remove from oil, place onto a paper towel covered plate, and set aside.
+                                                Repeat the
+                                                process until all eggplant has been cooked, adding moreoil as needed.
+                                            </li>
 
-                        </ol>
+                                        </ol>
 
-                        <ol id="myUL">
-                            <h6>Sauce: </h6>
-                            <li>Dice tomatoes and onions. Mince garlic. Set these aside.</li>
-                            <li>In a deep pot, heat oil on medium high heat. Add onions and saute until they start to
-                                brown Add garlic and saute with onions, being careful not to burn them. Then add tomato,
-                                salt and spices.</li>
-                            <li>Simmer on medium for about 5 minutes or untli tomatoes are tender.For canned tomatoes,
-                                simmer until warmed through and ingredients are wellcombined.</li>
-                            <li>Once the sauce is ready, remove all but a thin layer of sauce from the pot. Set
-                                remaining sauce aside</li>
-                        </ol>
-                        <ol id="myUL">
-                            <h6>Combined</h6>
-                            <li>Layer eggplant on top of remaining sauce in pot.Continue to add alternating layers of
-                                sauce and eggplant untilall ingredients have been addded</li>
-                            <li>Heat on medium low and simmer for 5-7 more minutes. Once your dish is ready, enjoy it by
-                                itselfor with rice.</li>
+                                        <ol id="myUL">
+                                            <h6>Sauce: </h6>
+                                            <li>Dice tomatoes and onions. Mince garlic. Set these aside.</li>
+                                            <li>In a deep pot, heat oil on medium high heat. Add onions and saute until
+                                                they start to
+                                                brown Add garlic and saute with onions, being careful not to burn them.
+                                                Then add tomato,
+                                                salt and spices.</li>
+                                            <li>Simmer on medium for about 5 minutes or untli tomatoes are tender.For
+                                                canned tomatoes,
+                                                simmer until warmed through and ingredients are wellcombined.</li>
+                                            <li>Once the sauce is ready, remove all but a thin layer of sauce from the
+                                                pot. Set
+                                                remaining sauce aside</li>
+                                        </ol>
+                                        <ol id="myUL">
+                                            <h6>Combined</h6>
+                                            <li>Layer eggplant on top of remaining sauce in pot.Continue to add
+                                                alternating layers of
+                                                sauce and eggplant untilall ingredients have been addded</li>
+                                            <li>Heat on medium low and simmer for 5-7 more minutes. Once your dish is
+                                                ready, enjoy it by
+                                                itselfor with rice.</li>
 
-                                 </div>
-                </div>
-            </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-           
-            
+                                    </div>
+                                </div>
+                            </div>
 
-            
-            <!-- / -->
+                        </div>
 
-            <div class="filterDiv food">
-                 <div class="card">
-                 <div class = "card-body">
-
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/nsima.jpg" class="card-img-top" alt="...">
-                    <div class="feature-content">
-                        <h4 class="card-title">NSIMA</h4>
-
-                        <p>When making nsima, it is common not to measure ingredients. Most nsima makers “eye-ball” the
-                            proportions because they are so familiar with the recipe</p>
-                        <hr>
-
-                        <h5>Ingridients</h5>
-
-                        <p>4 cups water</p>
-                        <p>2½ cups white cornmeal</p>
-
-                        <h5>Instructions</h5>
-
-                        <ol id="myUL">
-
-                            <li>In a pot, heat water on medium heat until steam starts to rise, but before water comes
-                                to a boil.</li>
-                            <li>Cook mixture on medium heat for about 5 minutes until bubbles start to form. Stir
-                                occasionally to avoid sticking to the bottom of the pot. </li>
-                            <li>After 5 minutes, add the rest of the flour while continuously stirring. Stir for about 2
-                                minutes or until the mixture thickens until firm enough to form into patties </li>
-                            <li>Remove from heat. Scoop out portions close to the size of your fist and serve directly
-                                onto your plate. Nsima must be eaten hot</li>
-
-                        </ol>
                     </div>
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
-           
-            
-            <!-- / -->
-            <!-- feaure box -->
 
-            <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/okra.jpg" class="card-img-top" alt="Therere">
-                    <div class="feature-content">
-                        <h4 class="card-title">THERERE</h4>
-                        <h6>Malawian Okra</h6>
 
-                        <p>Therere, or okra, is in season and often eaten in homes throughout many communities.</p>
-                        <p>For those who are new to eating therere, paired often with nsima</p>
-                        <hr>
 
-                        <h5>Ingridients</h5>
 
-                        <p>15 stalks of okra</p>
-                        <p>2 large tomatoes</p>
-                        <p>1 cup water</p>
-                        <p>1-2 teaspoons salt</p>
-                        <p>1 teaspoon baking soda</p>
+                <!-- / -->
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                <div class="filterDiv food">
+                    <div class="card">
+                        <div class="card-body">
 
-                            <li>Cut okra into small even circles, trimming off the ends. Dice tomato. Set these aside.
-                            </li>
-                            <li>In a medium pot, heat water on the stove top on medium heat. </li>
-                            <li>When the water reaches a boil, add salt and baking soda to water. Stir.</li>
-                            <li>Add okra to the boiling water a bit at a time,stirring gently to avoid breaking the
-                                pieces. Simmer for about 3 minutes.</li>
-                            <li>Once the okra and tomatoes are tender, the dish is ready to be served! Okra is typically
-                                served with nsima or rice.</li>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/nsima.jpg" class="card-img-top" alt="...">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">NSIMA</h4>
 
-                        </ol>
+                                        <p>When making nsima, it is common not to measure ingredients. Most nsima makers
+                                            “eye-ball” the
+                                            proportions because they are so familiar with the recipe</p>
+                                        <hr>
+
+                                        <h5>Ingridients</h5>
+
+                                        <p>4 cups water</p>
+                                        <p>2½ cups white cornmeal</p>
+
+                                        <h5>Instructions</h5>
+
+                                        <ol id="myUL">
+
+                                            <li>In a pot, heat water on medium heat until steam starts to rise, but
+                                                before water comes
+                                                to a boil.</li>
+                                            <li>Cook mixture on medium heat for about 5 minutes until bubbles start to
+                                                form. Stir
+                                                occasionally to avoid sticking to the bottom of the pot. </li>
+                                            <li>After 5 minutes, add the rest of the flour while continuously stirring.
+                                                Stir for about 2
+                                                minutes or until the mixture thickens until firm enough to form into
+                                                patties </li>
+                                            <li>Remove from heat. Scoop out portions close to the size of your fist and
+                                                serve directly
+                                                onto your plate. Nsima must be eaten hot</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
-                </div>
-            </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-
-           
-            
-
-            
-            <!-- / -->
-            <!-- feaure box -->
-            <div class="filterDiv colors relish">
-                 <div class="card">
-                 <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/greens.jpg" class="card-img-top" alt="greens">
-                    <div class="feature-content">
-                        <h4 class="card-title">MASAMBA</h4>
-                        <h6>Greens</h6>
-
-                        <p> These include Swiss chard, turnip greens, chicory, kale, spinach, pumpkin leaves e.t.c</p>
-                        <hr>
-
-                        <h5>Ingridients</h5>
-
-                        <p>2 medium bundles of pumpkin leaves</p>
-                        <p>1 large onion</p>
-                        <p>2 large tomatoes</p>
-                        <p>2 cups water</p>
-                        <p>2 tablespoons oil</p>
-                        <p>Salt to taste</p>
-
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
-
-                            <li>Wash greens and cut into ribbons. Dice onions and tomatoes, set aside</li>
-                            <li>In a saucepan, bring water to a boil and add salt. Add greens to boiling water and stir
-                                greens for 1-2 minutes. Remove the greens from water using strainer. Set greens aside
-                            </li>
-                            <li>In a separate pan, heat oil on medium heat. Add onions and tomatoes and sauté until
-                                tomatoes are tender and onions are translucent</li>
-                            <li>Add strained greens to the pan and cook for 1 minute allowing the flavors to combine
-                            </li>
-                            <li>Remove from heat and set aside while you prepare the nsima</li>
 
 
-                        </ol>
+                    <!-- / -->
+                    <!-- feaure box -->
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/okra.jpg" class="card-img-top" alt="Therere">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">THERERE</h4>
+                                        <h6>Malawian Okra</h6>
+
+                                        <p>Therere, or okra, is in season and often eaten in homes throughout many
+                                            communities.</p>
+                                        <p>For those who are new to eating therere, paired often with nsima</p>
+                                        <hr>
+
+                                        <h5>Ingridients</h5>
+
+                                        <p>15 stalks of okra</p>
+                                        <p>2 large tomatoes</p>
+                                        <p>1 cup water</p>
+                                        <p>1-2 teaspoons salt</p>
+                                        <p>1 teaspoon baking soda</p>
+
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Cut okra into small even circles, trimming off the ends. Dice tomato.
+                                                Set these aside.
+                                            </li>
+                                            <li>In a medium pot, heat water on the stove top on medium heat. </li>
+                                            <li>When the water reaches a boil, add salt and baking soda to water. Stir.
+                                            </li>
+                                            <li>Add okra to the boiling water a bit at a time,stirring gently to avoid
+                                                breaking the
+                                                pieces. Simmer for about 3 minutes.</li>
+                                            <li>Once the okra and tomatoes are tender, the dish is ready to be served!
+                                                Okra is typically
+                                                served with nsima or rice.</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-           
-           
 
-            
-            <!-- / -->
-            <!-- feaure box -->
-            <div class="filterDiv food">
-                 <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/chigumu.jpg" class="card-img-top" alt="Chigumu">
-                    <div class="feature-content">
-                        <h4 class="card-title">CHIGUMU</h4>
-                        <h6>African Banana Cake</h6>
 
-                         
-                        <hr>
 
-                        <h5>Ingridients</h5>
 
-                        <p>Get 3 cups whole grain maize flour(mgaiwa)</p>
-                        <p>Make ready 1 cup milk</p>
-                        <p>3 large eggs</p>
-                        <p>1/2 cup vegetable oil</p>
-                        <p>6 very ripe large bananas or 10 medium bananas</p>
-                        <p>vanilla extract</p>
-                        <p>1/2 cup sugar (or according to the sweetness of your bananas)</p>
-                        <p>1 tsp baking powde</p>
-                        <p>1 tsp baking soda</p>
-                        <p>a pinch of salt</p>
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="filterDiv colors relish">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/greens.jpg" class="card-img-top" alt="greens">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">MASAMBA</h4>
+                                        <h6>Greens</h6>
 
-                            <li>Preheat oven to 180° and grease an 11x8" rectangular pan
-                            </li>
-                            <li>In a small bowl whisk together whole grain maize flour, salt, baking powder, and baking soda. </li>
-                            <li>Mash bananas to your liking. I mash up mine with a hand mixer until smooth</li>
-                            <li>Add sugar to the banana mash and stir until combined before adding in the eggs and oil.</li>
-                            <li> Whisk until thoroughly incorporated.</li>
-                            <li>Add in the milk in three additions and mix until fully combined</li>
-                            <li>Transfer to your greased pan and bake for 25 to 30minutes or until a skewer poked into the cake comes out clean</li>
-                            <li>Serve and enjoy with a hot beverage</li>
+                                        <p> These include Swiss chard, turnip greens, chicory, kale, spinach, pumpkin
+                                            leaves e.t.c</p>
+                                        <hr>
 
-                        </ol>
+                                        <h5>Ingridients</h5>
+
+                                        <p>2 medium bundles of pumpkin leaves</p>
+                                        <p>1 large onion</p>
+                                        <p>2 large tomatoes</p>
+                                        <p>2 cups water</p>
+                                        <p>2 tablespoons oil</p>
+                                        <p>Salt to taste</p>
+
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Wash greens and cut into ribbons. Dice onions and tomatoes, set aside
+                                            </li>
+                                            <li>In a saucepan, bring water to a boil and add salt. Add greens to boiling
+                                                water and stir
+                                                greens for 1-2 minutes. Remove the greens from water using strainer. Set
+                                                greens aside
+                                            </li>
+                                            <li>In a separate pan, heat oil on medium heat. Add onions and tomatoes and
+                                                sauté until
+                                                tomatoes are tender and onions are translucent</li>
+                                            <li>Add strained greens to the pan and cook for 1 minute allowing the
+                                                flavors to combine
+                                            </li>
+                                            <li>Remove from heat and set aside while you prepare the nsima</li>
+
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-            
 
 
 
-             <!-- / -->
-            <!-- feaure box -->
-            <div class="filterDiv food">
-                <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/chitumbuwa.jpg" class="card-img-top" alt="Chitumbuwa">
-                    <div class="feature-content">
-                        <h4 class="card-title">ZITUMBUWA</h4>
-                        <h6></h6>
 
-                         
-                        <hr>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="filterDiv food">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/chigumu.jpg" class="card-img-top" alt="Chigumu">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">CHIGUMU</h4>
+                                        <h6>African Banana Cake</h6>
 
-                        <h5>Ingridients</h5>
 
-                        <p>10 ripe bananas</p>
-                        <p>1½ cup milk</p>
-                        <p>1 cups maize meal</p>
-                        <p>1/2 teaspoon salt</p>
-                        <p>2 eggs</p>
-                        <p>1 teaspoon baking soda</p>
-                        <p>cooking oil for frying</p>
-                        
+                                        <hr>
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                                        <h5>Ingridients</h5>
 
-                            <li>Mash bananas.
-                            </li>
-                            <li>Add eggs and  milk to the bananas and mix well. </li>
-                            <li>Add salt, baking soda and maize meal to the banana mixture and mix well. The consistency of your mixture must not be too hard neither too soft or runny. If the mixture is too hard add more milk, if it is too runny, add maize meal.</li>
-                            <li>Heat oil in a deep pan.</li>
-                            <li> Use the mixture to form balls, the size of your ball will depend on your size of fritter.</li>
-                            <li>Take your ball and put it on the palm of your hand, then use your four fingers to flatten the ball.</li>
-                            <li>There after fry the mixture until light golden brown. Turn to cook on all sides until light golden brown.</li>
-                            <li>Remove with slotted spoon to paper towels to absorb oil.</li>
+                                        <p>Get 3 cups whole grain maize flour(mgaiwa)</p>
+                                        <p>Make ready 1 cup milk</p>
+                                        <p>3 large eggs</p>
+                                        <p>1/2 cup vegetable oil</p>
+                                        <p>6 very ripe large bananas or 10 medium bananas</p>
+                                        <p>vanilla extract</p>
+                                        <p>1/2 cup sugar (or according to the sweetness of your bananas)</p>
+                                        <p>1 tsp baking powde</p>
+                                        <p>1 tsp baking soda</p>
+                                        <p>a pinch of salt</p>
 
-                        </ol>
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Preheat oven to 180° and grease an 11x8" rectangular pan
+                                            </li>
+                                            <li>In a small bowl whisk together whole grain maize flour, salt, baking
+                                                powder, and baking soda. </li>
+                                            <li>Mash bananas to your liking. I mash up mine with a hand mixer until
+                                                smooth</li>
+                                            <li>Add sugar to the banana mash and stir until combined before adding in
+                                                the eggs and oil.</li>
+                                            <li> Whisk until thoroughly incorporated.</li>
+                                            <li>Add in the milk in three additions and mix until fully combined</li>
+                                            <li>Transfer to your greased pan and bake for 25 to 30minutes or until a
+                                                skewer poked into the cake comes out clean</li>
+                                            <li>Serve and enjoy with a hot beverage</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-             
 
 
-            <!-- / -->
-            <!-- feaure box -->
-            <div class="filterDiv food">>
-                <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/kondowole.jpg" class="card-img-top" alt="Kondowole">
-                    <div class="feature-content">
-                        <h4 class="card-title">KONDOWOLE</h4>
-                        <h6> </h6>
-                        <p> </p>
 
-                         
-                        <hr>
-                        <h5>Preparation</h5>
 
-                        <p>To prepare Kondowole:</p>
-                        <ol id="myUL">
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="filterDiv food">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/chitumbuwa.jpg" class="card-img-top" alt="Chitumbuwa">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">ZITUMBUWA</h4>
+                                        <h6></h6>
 
-                            <li>First peel the cassava and soak it for up to four days, depending upon the climate it is in, so that it ferments and becomes soft (it may take only two days if in very humid climates).
-                            </li>
-                            <li>Remove from the water, remove the vascular bundle from the center, squeeze some of the excess water, and then pound with a mortar ("mtondo" in the local Malawian language chichewa) and pestle ("musi"). </li>
-                            <li>After pounding allow the cassava paste to dry in the sun. It is not meant to be placed in a heap but in small portions separated evenly.</li>
-                            <li>After grinding it should be sieved or taken to a maize mill</li>
 
-                        </ol>
+                                        <hr>
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                                        <h5>Ingridients</h5>
 
-                            <li>Place water in a small pot such that the water reaches the halfway mark then bring it to a boil.
-                            </li>
-                            <li>Add four handfuls of the cassava flour into the water until it forms a sticky paste and stir for a minute whilst on heat.  </li>
-                            <li>Remove the pot from the heat and continue mixing the paste until all the flour disappears. </li>
-                        </ol>
+                                        <p>10 ripe bananas</p>
+                                        <p>1½ cup milk</p>
+                                        <p>1 cups maize meal</p>
+                                        <p>1/2 teaspoon salt</p>
+                                        <p>2 eggs</p>
+                                        <p>1 teaspoon baking soda</p>
+                                        <p>cooking oil for frying</p>
+
+
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Mash bananas.
+                                            </li>
+                                            <li>Add eggs and milk to the bananas and mix well. </li>
+                                            <li>Add salt, baking soda and maize meal to the banana mixture and mix well.
+                                                The consistency of your mixture must not be too hard neither too soft or
+                                                runny. If the mixture is too hard add more milk, if it is too runny, add
+                                                maize meal.</li>
+                                            <li>Heat oil in a deep pan.</li>
+                                            <li> Use the mixture to form balls, the size of your ball will depend on
+                                                your size of fritter.</li>
+                                            <li>Take your ball and put it on the palm of your hand, then use your four
+                                                fingers to flatten the ball.</li>
+                                            <li>There after fry the mixture until light golden brown. Turn to cook on
+                                                all sides until light golden brown.</li>
+                                            <li>Remove with slotted spoon to paper towels to absorb oil.</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
 
 
-                
-            </div>
-             
-            <!-- / -->
-            <!-- feaure box -->
-            <div class="filterDiv breakfast">
-                <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/mgaiwa.jpg" class="card-img-top" alt="Therere">
-                    <div class="feature-content">
-                        <h4 class="card-title">MGAIWA PHALA</h4>
-                        <h6>Corn Porridge</h6>
-                        <p>This dish is eaten for breakfast, preferably sweetened with a lot of Sugar.</p>
 
-                         
-                        <hr>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="filterDiv food">>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/kondowole.jpg" class="card-img-top" alt="Kondowole">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">KONDOWOLE</h4>
+                                        <h6> </h6>
+                                        <p> </p>
 
-                        <h5>Ingridients</h5>
 
-                        <p>3 cups water</p>
-                        <p>1 cup ngaiwa (whole ground dry maize)</p>
-                        <p>½ cup milk</p>
-                        <p>dash of salt</p>
-                         
-                        
+                                        <hr>
+                                        <h5>Preparation</h5>
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                                        <p>To prepare Kondowole:</p>
+                                        <ol id="myUL">
 
-                            <li>Combine ingredients in a saucepan and cook over high heat stirring constantly to prevent lumps.
-                            </li>
-                            <li>Bring to a boil, reduce heat and cook covered for 15 minutes.</li>
+                                            <li>First peel the cassava and soak it for up to four days, depending upon
+                                                the climate it is in, so that it ferments and becomes soft (it may take
+                                                only two days if in very humid climates).
+                                            </li>
+                                            <li>Remove from the water, remove the vascular bundle from the center,
+                                                squeeze some of the excess water, and then pound with a mortar ("mtondo"
+                                                in the local Malawian language chichewa) and pestle ("musi"). </li>
+                                            <li>After pounding allow the cassava paste to dry in the sun. It is not
+                                                meant to be placed in a heap but in small portions separated evenly.
+                                            </li>
+                                            <li>After grinding it should be sieved or taken to a maize mill</li>
 
-                        </ol>
+                                        </ol>
+
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Place water in a small pot such that the water reaches the halfway mark
+                                                then bring it to a boil.
+                                            </li>
+                                            <li>Add four handfuls of the cassava flour into the water until it forms a
+                                                sticky paste and stir for a minute whilst on heat. </li>
+                                            <li>Remove the pot from the heat and continue mixing the paste until all the
+                                                flour disappears. </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
+
+
                 </div>
-            </div>
-                
-            </div>
-                
-            </div>
 
-                
-            </div>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="filterDiv breakfast">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/mgaiwa.jpg" class="card-img-top" alt="Therere">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">MGAIWA PHALA</h4>
+                                        <h6>Corn Porridge</h6>
+                                        <p>This dish is eaten for breakfast, preferably sweetened with a lot of Sugar.
+                                        </p>
 
-            
 
-            <!-- / -->
-            <!-- feaure box -->
+                                        <hr>
 
-            <div class="filterDiv breakfast">
-                 <div class="card">
-                <div class="card-body">
-                <div class="col-sm-6 col-lg-4">
-                <div class="feature-box-1">
-                    <img src="assets/img/local/rice.jpg" class="card-img-top" alt="Therere">
-                    <div class="feature-content">
-                        <h4 class="card-title">RICE PHALA</h4>
-                        <h6>Rice Porridge</h6>
-                        <p>Another variation on breakfast porridge.</p>
+                                        <h5>Ingridients</h5>
 
-                         
-                        <hr>
+                                        <p>3 cups water</p>
+                                        <p>1 cup ngaiwa (whole ground dry maize)</p>
+                                        <p>½ cup milk</p>
+                                        <p>dash of salt</p>
 
-                        <h5>Ingridients</h5>
 
-                        <p>1 cup uncooked rice</p>
-                        <p>2½ cups water</p>
-                        <p>½ tsp salt</p>
-                        <p>⅓ cup milk</p>
-                        <p>1 tsp margarine</p>
-                        <p>sugar</p>
-                         
-                        
 
-                        <h5>Instructions</h5>
-                        <ol id="myUL">
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
 
-                            <li>Bring water to a boil and add rice.
-                            </li>
-                            <li>Reduce heat, cover and simmer for 20 minutes.</li>
-                            <li>Add milk and butter, cover and cook until rice is tender and most of the liquid is absorbed.</li>
-                            <li>Add milk and butter, cover and cook until rice is tender and most of the liquid is absorbed.</li>
-                            <li>Add sugar to taste.</li>
+                                            <li>Combine ingredients in a saucepan and cook over high heat stirring
+                                                constantly to prevent lumps.
+                                            </li>
+                                            <li>Bring to a boil, reduce heat and cook covered for 15 minutes.</li>
 
-                        </ol>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+
+
                 </div>
+
+
+
+                <!-- / -->
+                <!-- feaure box -->
+
+                <div class="filterDiv breakfast">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="feature-box-1">
+                                    <img src="assets/img/local/rice.jpg" class="card-img-top" alt="Therere">
+                                    <div class="feature-content">
+                                        <h4 class="card-title">RICE PHALA</h4>
+                                        <h6>Rice Porridge</h6>
+                                        <p>Another variation on breakfast porridge.</p>
+
+
+                                        <hr>
+
+                                        <h5>Ingridients</h5>
+
+                                        <p>1 cup uncooked rice</p>
+                                        <p>2½ cups water</p>
+                                        <p>½ tsp salt</p>
+                                        <p>⅓ cup milk</p>
+                                        <p>1 tsp margarine</p>
+                                        <p>sugar</p>
+
+
+
+                                        <h5>Instructions</h5>
+                                        <ol id="myUL">
+
+                                            <li>Bring water to a boil and add rice.
+                                            </li>
+                                            <li>Reduce heat, cover and simmer for 20 minutes.</li>
+                                            <li>Add milk and butter, cover and cook until rice is tender and most of the
+                                                liquid is absorbed.</li>
+                                            <li>Add milk and butter, cover and cook until rice is tender and most of the
+                                                liquid is absorbed.</li>
+                                            <li>Add sugar to taste.</li>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- / -->
+                <!-- feaure box -->
+
+
+
+
             </div>
-                
-            </div>
-                
-            </div>
-                
-            </div>
-
-            
-
-
-            <!-- / -->
-            <!-- feaure box -->
-            
-             
-
-
         </div>
-    </div>
         </div>
     </section>
 
@@ -595,51 +658,7 @@
     </div>
 
 
-    <div id="contact-sec">
-        <div class="overlay">
-            <div class="container set-pad">
-                <div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">HOW CAN WE HELP?
-                        </h1>
-                        <p data-scroll-reveal="enter from the bottom after 0.3s">Need to get in touch with us? Either
-                            fill out the form with your inquiry or find the <a href="lameckmbewe6@gmail.com">department
-                                email</a> you'd like to contact below</p>
-                    </div>
-
-                </div>
-                <!--/.HEADER LINE END-->
-                <div class="row set-row-pad" data-scroll-reveal="enter from the bottom after 0.5s">
-
-
-                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control " required="required" placeholder="Your Name" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control " required="required" placeholder="Your Email" />
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" required="required" class="form-control"
-                                    style="min-height: 150px;" placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
-                            </div>
-
-                        </form>
-                    </div>
-
-
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="container">
         <div class="row set-row-pad">
             <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 "
@@ -691,10 +710,10 @@
     <script src="assets/js/custom.js"></script>
 
     <script type="text/javascript">
-       
-        
+
+
     </script>
-     
+
 </body>
 
 </html>
